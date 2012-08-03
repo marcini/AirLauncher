@@ -32,7 +32,7 @@ ConnectionManager.prototype.fetchDocument = function(startUrl){
     
     var loader = new air.URLLoader();
     loader.addEventListener(air.Event.COMPLETE, function(event){
-        
+        //TODO
         air.trace('download complete');
         var loader = air.URLLoader(event.target);
         air.trace("completeHandler: " + loader.data);
